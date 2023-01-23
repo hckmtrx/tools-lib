@@ -5,7 +5,7 @@
 ## how to use
 get current directory of python file
 ```python
-import tools
+import hckmtrx-tools
 
 reader = open(tools.FileSystem.CurrentDirectory(__file__) + "data.txt")
 lines = reader.readlines()
