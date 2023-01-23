@@ -4,6 +4,12 @@
 
 ## how to use
 get current directory of python file
+```python
+import tools
+
+reader = open(tools.FileSystem.CurrentDirectory(__file__) + "data.txt")
+lines = reader.readlines()
+```
 ```
 C:
 |
@@ -21,13 +27,6 @@ D:
 |   |   folder3_main.py
 |   |   folder3_data.txt
 ```
-```python
-import tools
-
-reader = open(tools.FileSystem.CurrentDirectory(__file__) + "data.txt")
-lines = reader.readlines()
-```
-
 ### function return in:
 - folder1_main.py `C:\folder1\`
 - folder2_main.py `C:\folder1\folder2\`
