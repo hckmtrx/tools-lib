@@ -1,4 +1,4 @@
-# tools
+# hckmtrx-tools
 ## installation
 `pip install hckmtrx-tools`
 
@@ -31,6 +31,6 @@ D:
 |   |   folder3_data.txt
 ```
 ### function return in:
-- folder1_main.py `C:\folder1\`
-- folder2_main.py `C:\folder1\folder2\`
-- folder3_main.py `D:\folder3\`
+- folder1_main.py -> `C:\folder1\`
+- folder2_main.py -> `C:\folder1\folder2\`
+- folder3_main.py -> `D:\folder3\`
