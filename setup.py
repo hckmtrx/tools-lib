@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.0.4'
 DESCRIPTION = 'tools for improved coding'
-LONG_DESCRIPTION = 'A package that provides tools to make coding easier'
+LONG_DESCRIPTION = 'A package that provides tools to make coding easier, for more info view https://www.github.com/hckmtrx/tools-lib'
 
 setup(
-    name="hckmtrx-tools",
+    name="hckmtrx_tools",
     version=VERSION,
     author="hckmtrx",
     author_email="<hckmtrx@gmail.com>",

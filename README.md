@@ -5,10 +5,13 @@
 ## how to use
 get current directory of python file
 ```python
-import hckmtrx-tools
+import hckmtrx_tools
 
-reader = open(tools.FileSystem.CurrentDirectory(__file__) + "data.txt")
-lines = reader.readlines()
+# initialize FileSystem
+fileSystem = hckmtrx_tools.FileSystem(__file__)
+
+# get files directory with GetDirectory() function
+reader = open(fileSystem.GetDirectory() + "data.txt")
 ```
 ```
 C:
