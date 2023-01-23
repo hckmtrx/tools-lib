@@ -5,7 +5,7 @@ DESCRIPTION = 'tools for improved coding'
 LONG_DESCRIPTION = 'A package that provides tools to make coding easier'
 
 setup(
-    name="tools",
+    name="hckmtrx-tools",
     version=VERSION,
     author="hckmtrx",
     author_email="<hckmtrx@gmail.com>",
