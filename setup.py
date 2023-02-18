@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.4'
+VERSION = '0.0.6'
 DESCRIPTION = 'tools for improved coding'
 LONG_DESCRIPTION = 'A package that provides tools to make coding easier, for more info view https://www.github.com/hckmtrx/tools-lib'
 

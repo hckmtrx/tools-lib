@@ -7,12 +7,14 @@ get current directory of python file
 ```python
 import hckmtrx_tools
 
-# initialize FileSystem
-fileSystem = hckmtrx_tools.FileSystem(__file__)
+# get file's directory with GetDirectory() function
+path = hckmtrx_tools.GetDirectory(__file__)
 
-# get files directory with GetDirectory() function
-reader = open(fileSystem.GetDirectory() + "data.txt")
+# use it for different purposes (e.g. reading a file in the directory)
+reader = open(f"{path}data.txt")
 ```
+
+## demonstration
 ```
 C:
 |
@@ -30,7 +32,7 @@ D:
 |   |   folder3_main.py
 |   |   folder3_data.txt
 ```
-### function return in:
+### path variable in:
 - folder1_main.py -> `C:\folder1\`
 - folder2_main.py -> `C:\folder1\folder2\`
 - folder3_main.py -> `D:\folder3\`
