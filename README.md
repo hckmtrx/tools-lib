@@ -1,9 +1,11 @@
 # hckmtrx-tools
-## installation
-`pip install hckmtrx-tools`
+## INSTALLATION
+```shell
+pip install hckmtrx-tools
+```
 
-## how to use
-get parent directory of python file
+## USAGE
+### get parent directory of python file
 ```python
 import hckmtrx_tools
 
@@ -13,8 +15,7 @@ path = hckmtrx_tools.GetDirectory(__file__)
 # use it for different purposes (e.g. reading a file in the directory)
 reader = open(f"{path}data.txt")
 ```
-
-get n directories above parent directory of python file
+### get n directories above parent directory of python file
 ```python
 import hckmtrx_tools
 
@@ -40,11 +41,11 @@ D:
 |___folder3
 |   |   folder3_main.py
 ```
-### path variable in:
+### [path](#get-parent-directory-of-python-file) variable in:
 - folder1_main.py -> `C:\folder1\`
 - folder2_main.py -> `C:\folder1\folder2\`
 - folder3_main.py -> `D:\folder3\`
-### directoryAbove variable in:
+### [directoryAbove](#get-n-directories-above-parent-directory-of-python-file) variable in:
 - folder1_main.py -> `C:\`
 - folder2_main.py -> `C:\folder1\`
 - folder3_main.py -> `D:\`
