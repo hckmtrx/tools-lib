@@ -26,7 +26,7 @@ directoryAbove = hckmtrx_tools.GetDirectory(__file__, 1)
 reader = open(f"{directoryAbove}data.txt")
 ```
 
-## demonstration
+## DEMONSTRATION
 ```
 C:
 |
